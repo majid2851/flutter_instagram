@@ -7,6 +7,10 @@ class Test extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('Instagram')),
+      ),
+    );
   }
 }
