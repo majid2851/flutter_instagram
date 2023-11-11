@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
-import 'widget/test.dart';
+import 'widget/home_page.dart';
 
 void main() async
 {
@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return MaterialApp(
-
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData(
         brightness: Brightness.dark,
@@ -31,10 +30,10 @@ class MyApp extends StatelessWidget
       ),
       theme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch:Colors.blue
+        primarySwatch:Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: Test(),
+      home: HomePage(),
 
     );
   }
