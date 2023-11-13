@@ -19,15 +19,15 @@ class MainView extends StatelessWidget
         title: Center(child: Text('Main View')),
       ),
       body: Consumer(
-          builder: (context,ref,child)
-          {
-            return TextButton(
-              child: Text('Logout'),
-              onPressed: () async {
-                ref.read(authStateProvider.notifier).logOut();
-              },
-            );
-          }
+        builder: (context,ref,child)
+        {
+          return TextButton(
+            child: Text('Logout'),
+            onPressed: () async {
+              ref.read(authStateProvider.notifier).logOut();
+            },
+          );
+        }
       ),
      );
   }
