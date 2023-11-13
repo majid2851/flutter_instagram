@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_instagram/state/auth/models/auth_result.dart';
 import 'package:flutter_instagram/state/auth/providers/auth_state_provider.dart';
-import 'package:flutter_instagram/state/auth/providers/is_logged_in_provider.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'firebase_options.dart';
 
+import 'widget/login_view.dart';
 import 'widget/main_view.dart';
 
 void main() async

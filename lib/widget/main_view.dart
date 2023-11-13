@@ -5,6 +5,8 @@ import 'package:flutter_instagram/state/auth/backend/authentication.dart';
 import 'package:flutter_instagram/state/auth/providers/auth_state_provider.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
+import '../views/components/loading/loading_screen.dart';
+
 class MainView extends StatelessWidget
 {
   const MainView({super.key});
@@ -22,8 +24,7 @@ class MainView extends StatelessWidget
             return TextButton(
               child: Text('Logout'),
               onPressed: () async {
-                ref.read(authStateProvider.notifier)
-                    .logOut();
+                ref.read(authStateProvider.notifier).logOut();
               },
             );
           }
@@ -33,23 +34,3 @@ class MainView extends StatelessWidget
 
 }
 
-class LoginView extends ConsumerWidget
-{
-  @override
-  Widget build(BuildContext context,WidgetRef ref)
-  {
-    return Scaffold(
-      appBar: AppBar(
-        title: Center(child: Text('LoginView'),),
-      ),
-      body: TextButton(onPressed:() async {
-          await ref.read(authStateProvider.notifier).loginWithGoogle();
-        },
-        child: const Text(
-          'Sign In With Google'
-        )
-      ),
-    );
-  }
-
-}
