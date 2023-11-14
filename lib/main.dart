@@ -7,7 +7,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'firebase_options.dart';
 
 import 'views/components/loading/loading_screen.dart';
-import 'widget/login_view.dart';
+import 'views/login/login_view.dart';
 import 'widget/main_view.dart';
 
 void main() async
