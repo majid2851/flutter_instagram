@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram/state/auth/backend/authentication.dart';
 import 'package:flutter_instagram/state/auth/providers/auth_state_provider.dart';
+import 'package:flutter_instagram/views/components/animations/data_not_found_animation_view.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../views/components/loading/loading_screen.dart';
