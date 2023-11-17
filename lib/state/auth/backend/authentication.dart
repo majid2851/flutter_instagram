@@ -25,14 +25,13 @@ class Authenticator
       currentUser?.displayName ?? '';
   }
   String? get email {
-    FirebaseAuth.instance.currentUser?.email ?? '';
+    return FirebaseAuth.instance.currentUser?.email ?? '';
   }
 
   Future<void> logOut() async
   {
     await FirebaseAuth.instance.signOut();
     await GoogleSignIn().signOut();
-    // await FacebookAuth.instance.logOut();
 
   }
   Future<AuthResult> loginWithGoogle() async

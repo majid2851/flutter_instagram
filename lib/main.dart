@@ -8,7 +8,7 @@ import 'firebase_options.dart';
 
 import 'views/components/loading/loading_screen.dart';
 import 'views/login/login_view.dart';
-import 'widget/main_view.dart';
+import 'views/main/main_view.dart';
 
 void main() async
 {
