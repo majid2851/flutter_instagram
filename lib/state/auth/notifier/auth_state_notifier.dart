@@ -8,7 +8,7 @@ import '../models/auth_state.dart';
 
 class AuthStateNotifier extends StateNotifier<AuthState>
 {
-  final _authenticator = const Authenticator();
+  final _authenticator = const Authentication();
   final _userInfoStorage = const UserInfoStorage();
 
   AuthStateNotifier():super(const AuthState.unknown())

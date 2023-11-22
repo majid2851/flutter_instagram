@@ -6,9 +6,9 @@ import '../../posts/typedefs/user_id.dart';
 import '../constants/constants.dart';
 import '../models/auth_result.dart';
 
-class Authenticator
+class Authentication
 {
-  const Authenticator();
+  const Authentication();
 
   UserId ? get userId
   {

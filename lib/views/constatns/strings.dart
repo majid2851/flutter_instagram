@@ -1,7 +1,8 @@
 import 'package:flutter/foundation.dart';
 
 @immutable
-class Strings {
+class Strings
+{
   static const appName = 'Flutter Instagram';
   static const welcomeToAppName = 'Welcome to ${Strings.appName}';
   static const youHaveNoPosts =
