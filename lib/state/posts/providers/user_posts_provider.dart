@@ -11,7 +11,8 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../models/post.dart';
 
-final userPostsProvider = StreamProvider.autoDispose<Iterable<Post>>((ref){
+final userPostsProvider = StreamProvider
+    .autoDispose<Iterable<Post>>((ref){
 
     final userId=ref.watch(userIdProvider);
 

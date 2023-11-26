@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram/views/components/post/post_thumbnail_view.dart';
+import 'package:logger/logger.dart';
 
 import '../../../state/posts/models/post.dart';
 
@@ -29,7 +30,7 @@ class PostGridView extends StatelessWidget
         return PostThumbnailView(
             post: post,
             onTapped:(){
-              //navigate to the post detail
+
             }
         );
       },
