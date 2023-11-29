@@ -7,7 +7,6 @@ import 'package:flutter_instagram/views/components/animations/error_animation_vi
 import 'package:flutter_instagram/views/components/animations/loading_animation_view.dart';
 import 'package:flutter_instagram/views/components/post/post_grid_view.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:logger/logger.dart';
 
 import '../../constatns/strings.dart';
 

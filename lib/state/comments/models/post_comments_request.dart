@@ -14,8 +14,8 @@ class PostCommentsRequest
 
  const PostCommentsRequest({
     required this.postId,
-    required this.sortByCreatedAt,
-    required this.dateSorting,
+    this.sortByCreatedAt=true,
+    this.dateSorting=DateSorting.newestOnTop,
     this.limit
  });
 

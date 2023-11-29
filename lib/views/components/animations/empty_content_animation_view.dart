@@ -4,6 +4,7 @@ import 'package:flutter_instagram/views/components/animations/models/lottie_anim
 
 class EmptyContentAnimationView extends LottieAnimationView
 {
+
   EmptyContentAnimationView({super.key})
       : super(animation: LottieAnimation.empty);
 

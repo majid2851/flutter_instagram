@@ -1,6 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram/views/components/post/post_thumbnail_view.dart';
-import 'package:logger/logger.dart';
+import 'package:flutter_instagram/views/post_comments/post_comments_view.dart';
 
 import '../../../state/posts/models/post.dart';
 
@@ -30,7 +31,13 @@ class PostGridView extends StatelessWidget
         return PostThumbnailView(
             post: post,
             onTapped:(){
-
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                    builder: (_) =>PostCommentsView(
+                        postId: post.postId
+                    )
+                )
+              );
             }
         );
       },
