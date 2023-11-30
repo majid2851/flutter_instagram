@@ -4,8 +4,8 @@ import 'package:flutter_instagram/state/auth/providers/user_id_provider.dart';
 import 'package:flutter_instagram/state/comments/models/post_comments_request.dart';
 import 'package:flutter_instagram/state/comments/providers/post_comments_provider.dart';
 import 'package:flutter_instagram/state/comments/providers/send_comment_provider.dart';
-import 'package:flutter_instagram/views/components/animations/empty_content_animation_view.dart';
-import 'package:flutter_instagram/views/components/animations/empty_content_with_text_animation_view.dart';
+import 'package:flutter_instagram/views/components'
+    '/animations/empty_content_with_text_animation_view.dart';
 import 'package:flutter_instagram/views/components/animations/error_animation_view.dart';
 import 'package:flutter_instagram/views/components/animations/loading_animation_view.dart';
 import 'package:flutter_instagram/views/components/comment/comment_tile.dart';
