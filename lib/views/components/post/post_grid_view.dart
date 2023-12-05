@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram/views/components/post/post_thumbnail_view.dart';
+import 'package:flutter_instagram/views/components/post_details/post_details_view.dart';
 import 'package:flutter_instagram/views/post_comments/post_comments_view.dart';
 
 import '../../../state/posts/models/post.dart';
@@ -32,6 +33,14 @@ class PostGridView extends StatelessWidget
             post: post,
             onTapped:()
             {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>PostDetailView(
+                      post: post
+                  )
+                )
+              );
 
 
             }

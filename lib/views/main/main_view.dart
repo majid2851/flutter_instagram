@@ -7,6 +7,8 @@ import 'package:flutter_instagram/state/post_settings/providers/post_setting_pro
 import 'package:flutter_instagram/views/components/dialog/alert_dialog_model.dart';
 import 'package:flutter_instagram/views/components/dialog/logout_dialog.dart';
 import 'package:flutter_instagram/views/create_new_post/create_new_post_view.dart';
+import 'package:flutter_instagram/views/tabs/home/home_view.dart';
+import 'package:flutter_instagram/views/tabs/search/search_view.dart';
 import 'package:flutter_instagram/views/tabs/users_posts/user_posts_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -120,8 +122,8 @@ class _MainViewState extends ConsumerState<MainView>
           body: const TabBarView(
             children: [
               UserPostsView(),
-              UserPostsView(),
-              UserPostsView(),
+              SearchView(),
+              HomeView(),
 
             ],
           ),

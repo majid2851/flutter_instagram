@@ -19,6 +19,7 @@ import 'package:flutter_instagram/views/components/post/post_display_name_and_me
 import 'package:flutter_instagram/views/components/post/post_image_or_video_view.dart';
 import 'package:flutter_instagram/views/post_comments/post_comments_view.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:logger/logger.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../../../state/posts/models/post.dart';
@@ -34,7 +35,9 @@ class PostDetailView extends ConsumerStatefulWidget
   });
 
   @override
-  State<PostDetailView> createState() => _PostDetailViewState();
+  ConsumerState<ConsumerStatefulWidget> createState() {
+    return _PostDetailViewState();
+  }
 }
 
 class _PostDetailViewState extends ConsumerState<PostDetailView> {
@@ -135,6 +138,7 @@ class _PostDetailViewState extends ConsumerState<PostDetailView> {
                       )
                   ],
                 ),
+
                 PostDisplayNameAndMessageView(post: postWithComments.post),
 
                 PostDateView(dateTime:postWithComments.post.createdAt),
@@ -143,7 +147,9 @@ class _PostDetailViewState extends ConsumerState<PostDetailView> {
                   child: Divider(color: Colors.white70,),
                 ),
 
-                CompactCommentColumn(comments: postWithComments.comments),
+                CompactCommentColumn(
+                    comments: postWithComments.comments
+                ),
                 //display like count
                 if(postWithComments.post.allowsLikes)
                   Padding(

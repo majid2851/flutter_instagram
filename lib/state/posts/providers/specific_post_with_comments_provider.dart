@@ -1,7 +1,5 @@
 
 import 'dart:async';
-import 'dart:convert';
-import 'dart:js_util';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_instagram/state/comments/extensions/comment_sorting_by_request.dart';

@@ -10,6 +10,7 @@ import 'package:flutter_instagram/views/components/constants/strings.dart';
 import 'package:flutter_instagram/views/components/dialog/alert_dialog_model.dart';
 import 'package:flutter_instagram/views/components/dialog/delete_dialog.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:logger/logger.dart';
 
 import '../../../state/comments/models/comment.dart';
 import '../../../state/user_info/providers/user_info_model_provider.dart';
@@ -25,6 +26,8 @@ class CommentTile extends ConsumerWidget
     final userInfo = ref.watch(userInfoModelProvider(
         comment.fromUserId,
     ));
+
+    Logger().d('mag2851-'+userInfo.value.toString());
 
     return userInfo.when(
       data:(userInfo){

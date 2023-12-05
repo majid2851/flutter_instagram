@@ -30,6 +30,7 @@ class PostDisplayNameAndMessageView extends ConsumerWidget
           );
         },
         loading: (){
+          // return Center();
           return const Center(child: CircularProgressIndicator());
         },
         error: ((error,stackTrace){
