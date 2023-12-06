@@ -36,7 +36,8 @@ Flutter Instagram App is an open-source social media application built with Flut
 
 ![Screenshot_2023 12 06_10 23 36 179](https://github.com/majid2851/flutter_instagram/assets/46685643/ed8b9a34-3b31-4f4b-bfbb-603551f930f8)
 
-![Screenshot_2023 12 06_10 26 45 420](https://github.com/majid2851/flutter_instagram/assets/46685643/90649f5c-bf89-4c05-b2c5-4e3b2f09f280)
+![Screenshot_2023 12 06_14 39 04 358](https://github.com/majid2851/flutter_instagram/assets/46685643/4c79aa47-b4ac-4221-a01d-66d98f9e5ffc)
+
 
 ![Screenshot_2023 12 06_10 26 16 087](https://github.com/majid2851/flutter_instagram/assets/46685643/bd2e84d6-1f2c-426b-b4f9-368b836937da)
 
