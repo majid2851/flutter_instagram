@@ -33,17 +33,23 @@ Flutter Instagram App is an open-source social media application built with Flut
 - User authentication with Firebase Authentication
 
 ## Screenshots
-![Screenshot_2023 12 06_10 29 36 131](https://github.com/majid2851/flutter_instagram/assets/46685643/048b61e3-2628-4945-8c0e-695b3c12dcf5)
+![Screenshot_2023 12 06_10 29 36 131](https://github.com/majid2851/flutter_instagram/assets/46685643/775a0b14-01ba-42c2-bc27-2358bf5e7989)
 
-![Screenshot_2023 12 06_10 23 36 179](https://github.com/majid2851/flutter_instagram/assets/46685643/b2fe4474-e320-4723-9d14-9a0470421ca0)
+![Screenshot_2023 12 06_10 23 36 179](https://github.com/majid2851/flutter_instagram/assets/46685643/ed8b9a34-3b31-4f4b-bfbb-603551f930f8)
 
-![Screenshot_2023 12 06_10 26 45 420](https://github.com/majid2851/flutter_instagram/assets/46685643/dd040934-c04b-415b-a29b-54d76ace0209)
+![Screenshot_2023 12 06_10 26 45 420](https://github.com/majid2851/flutter_instagram/assets/46685643/90649f5c-bf89-4c05-b2c5-4e3b2f09f280)
 
-![Screenshot_2023 12 06_10 26 16 087](https://github.com/majid2851/flutter_instagram/assets/46685643/6221221d-4c84-42b6-ad6d-04c6c9dfea45)
+![Screenshot_2023 12 06_10 26 16 087](https://github.com/majid2851/flutter_instagram/assets/46685643/bd2e84d6-1f2c-426b-b4f9-368b836937da)
 
-![Screenshot_2023 12 06_10 25 34 583](https://github.com/majid2851/flutter_instagram/assets/46685643/dabf9b15-0272-4d4a-a052-d7fbc146f15e)
+![Screenshot_2023 12 06_10 25 34 583](https://github.com/majid2851/flutter_instagram/assets/46685643/6825ccc5-4ce2-4fe3-a889-5b8b02cf3641)
 
-![Screenshot_2023 12 06_10 26 22 908](https://github.com/majid2851/flutter_instagram/assets/46685643/c6107793-bc85-4f3a-b924-1df7dd2fa374)
+![Screenshot_2023 12 06_10 26 22 908](https://github.com/majid2851/flutter_instagram/assets/46685643/2029be93-b76d-4a62-a2fa-637c3b00ca38)
+
+
+
+
+
+
 
 
 
