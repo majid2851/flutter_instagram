@@ -2,7 +2,6 @@
 
 
 ## Description
-Introduction to Riverpod
 Riverpod is a state management library for Flutter applications, designed to make it easy to work with and manage the application state in a robust and scalable way. It is developed by the same team behind the popular Flutter framework.
 
 Key Features
